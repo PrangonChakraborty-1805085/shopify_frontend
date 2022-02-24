@@ -1,0 +1,171 @@
+.user {
+  flex: 4;
+  padding: 20px;
+}
+
+.sellerTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sellerAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.userContainer {
+  display: flex;
+  margin-top: 20px;
+  height: 70vh;
+  width: 85%;
+  margin: auto;
+}
+
+.sellerShow {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.sellerUpdate {
+  flex: 2;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 20px;
+}
+
+.sellerShowTop {
+  display: flex;
+  align-items: center;
+}
+
+.sellerShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sellerShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.sellerShowUsername {
+  font-weight: 600;
+}
+
+.sellerShowUserTitle {
+  font-weight: 300;
+}
+
+.sellerShowBottom {
+  margin-top: 20px;
+}
+
+.sellerShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+
+.sellerShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+
+.sellerShowIcon {
+  font-size: 16px !important;
+}
+
+.sellerShowInfoTitle {
+  margin-left: 10px;
+}
+
+.sellerUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.sellerUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.sellerUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.sellerUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.sellerUpdateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.sellerUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sellerUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+
+.sellerUpdateImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.sellerUpdateIcon {
+  cursor: pointer;
+}
+
+.sellerUpdateButton {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+}
+.userOrderContainer {
+  margin-top: 20px;
+  padding: 20px 10px 10px 0px;
+  /* box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); */
+  box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  margin-bottom: 10px;
+}
+.userOrderContainerTitle {
+  margin: 10px 0px 20px 90px;
+}
+.userOrders {
+  width: 85%;
+  margin: auto;
+}
