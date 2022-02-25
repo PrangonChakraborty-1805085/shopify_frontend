@@ -60,11 +60,11 @@ Make sure you have node and oracle installed in your device.
 **`Oracle`**:Install Oracle from [here](http://www.oracle.com/index.html) and register for an account of to complete the installation
 
 **`Yarn`**:Go to terminal and run the following command
-            ```sh
+            ```
               npm install --global yarn
              ```
           To check if it is installed properly, run the following command 
-             ```sh
+             ```
              yarn --version
              ```
           If you see the version properly, you are ready to go to the next section
@@ -78,7 +78,7 @@ Make sure you have node and oracle installed in your device.
 #### Getting the repository
 
 1. Clone the repository
-   ```sh
+   ```
    git clone https://github.com/PrangonChakraborty-1805085/shopify_frontend.git
    ```
 
@@ -88,7 +88,7 @@ Make sure you have node and oracle installed in your device.
 
 4. Install yarn packages and node modules ( if it is not installed yet)
 
-   ```sh
+   ```
    yarn
    ```
 
@@ -97,7 +97,7 @@ Make sure you have node and oracle installed in your device.
 
 Go to your favourite code editor ( Mine is VS Code 😄) and run
 
-```sh
+```
 yarn start
 ```
 
