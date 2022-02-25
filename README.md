@@ -14,7 +14,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#libraries-used">Built With</a></li>
+        <li><a href="#libraries-used">Libraries Used</a></li>
       </ul>
     </li>
     <li>
