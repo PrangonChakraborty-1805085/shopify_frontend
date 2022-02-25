@@ -1,4 +1,11 @@
 # Getting Started with Create React App
+<div align="center">
+
+![](public/images/shopify.png)
+
+<h2 align="center">SHOPIFY</h3>
+</div>
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
