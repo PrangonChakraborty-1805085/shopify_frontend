@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+
 <div align="center">
 
 ![](public/images/shopify.png)
@@ -7,71 +7,138 @@
 </div>
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+<!-- ABOUT THE PROJECT -->
+## About the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is the frontend part an E-Commerce Site. This is something like Daraz.com. But Daraz is a huge website, we couldn't do so much functionality as Daraz, but we tried our heart and soul to add as much functionality as we could in this short time 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Libraries Used
 
-### `npm test`
+This whole frontend is built with the following libraries:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. For HTML and JAVASCRIPT
+   - React JS
+2. For CSS
+   - Styled-Components  
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- GETTING STARTED -->
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow the step by step installation procedure to install and run this on your machine
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Make sure you have node and oracle installed in your device.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**`NodeJs`**: Install Nodejs from [here](https://nodejs.org/en/download/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**`Oracle`**:Install Oracle from [here](http://www.oracle.com/index.html) and register for an account of to complete the installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**`Yarn`**:Go to terminal and run the following command
+            ```sh
+              npm install --global yarn
+             ```
+          To check if it is installed properly, run the following command 
+             ```sh
+             yarn --version
+             ```
+          If you see the version properly, you are ready to go to the next section
+   
+**`VS Code Setup`**:(Not mandatory..But very useful for web projects)Install VS Code from [here](https://code.visualstudio.com/download) and setup accordingly
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**`Shopify_backend`**: Last but not the least, you must have the shopify_backend up and running to run the frontend as the frontend is provided by                       the backend. Download and run the necessary prerequisites from [here](https://github.com/PrangonChakraborty-1805085/shopify_backend)
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Getting the repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repository
+   ```sh
+   git clone https://github.com/PrangonChakraborty-1805085/shopify_frontend.git
+   ```
 
-### Code Splitting
+2. you can also download the zip if you don't have git installed
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. After installation or download go to the repository and open command line.
 
-### Analyzing the Bundle Size
+4. Install yarn packages and node modules ( if it is not installed yet)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```sh
+   yarn
+   ```
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### Run the project
 
-### Advanced Configuration
+Go to your favourite code editor ( Mine is VS Code 😄) and run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+yarn start
+```
 
-### Deployment
+Yeah😍 the project is working! ( if you can see to window running, go to chrome/edge and navigate to localhost:3000)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- CONTACT -->
+## Contributors
+
+- **Fazle Alahi Mukim** - 1805083
+
+- **Prangon Chakraborty** - 1805085
+
+  
+
+## Supervisor
+
+- Tahmid Hasan (তাহমিদ হাসান)
+
+  - **Lecturer**
+  
+    ▶ **Telephone:**
+    
+    Cell: +8801718-765876
+
+    ▶ **Contact:**
+ 
+    Department of Computer Science and Engineering
+    Bangladesh University of Engineering and Technology
+    Dhaka-1000, Bangladesh
+
+    ▶   **Homepage:**
+
+    [https://tahmid04.github.io/](https://tahmid04.github.io/)
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* https://mui.com/components/material-icons/)
+
